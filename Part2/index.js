@@ -11,6 +11,6 @@ function setCard() {
 function reset(){
     let cardReset = document.getElementsByTagName("section");
     for (let i = 0 ; i < cardReset.length ; i++) {
-        return cardReset.removeAttribute(colorInput);
+        return cardReset.removeAttribute('');
     }
 }
