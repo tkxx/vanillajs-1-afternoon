@@ -9,8 +9,10 @@ function setCard() {
 }
 
 function reset(){
-    let cardReset = document.getElementsByTagName("section");
-    for (let i = 0 ; i < cardReset.length ; i++) {
-        return cardReset.removeAttribute('');
+    let cardMods = document.getElementsByTagName("section");
+    
+    for (let i = 0 ; i < cardMods.length ; i++) {        
+        let cardReset = cardMods[i];
+        cardReset.removeAttribute("style");
     }
 }
